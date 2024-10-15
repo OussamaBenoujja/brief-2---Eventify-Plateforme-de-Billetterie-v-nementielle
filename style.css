@@ -2,18 +2,15 @@
 @font-face {
     font-family: dmSans;
     src: url(fontsFolder/dmsans.ttf);
-  }
-
-
-
+}
 body{
     margin: 0px;
     padding: 0px;
 }
 #kpop{
-    position: fixed;
-    width: 500px;
-    transform: translate(35%,35%);
+    position: obsolute;
+    width: 600px;
+    transform: translate(25%,40%);
 }
 #special{
     padding: 20px;
@@ -35,7 +32,7 @@ body{
     color: white;
 }
 #navbar ul{
-    transform: translate(160%,0%);
+    transform: translate(190%,0%);
     position: absolute;
     z-index: 99;
     display: flex;
@@ -45,7 +42,7 @@ body{
 header {
    
     background-image: url('img/bg.png');
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -62,11 +59,77 @@ header {
     background-position: center;
     z-index: 2;
 }
-
 .sideStuff{
-    position: fixed;
-    transform: translate(550%,1500%);
+    position: absolute;
+    color: white;
+    font-family: dmSans;
+    font-weight: bold;
+    z-index: 4;
+    left: 50%;
+    top: 65%;
+    background-color: #F5167E;
+
+    padding: 40px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: bold;
+    border: 0px;
+    border-style: solid;
+    border-radius: 90px;
+    cursor: pointer;
 }
-.sideStuff input{
-    
+.sideStuff2{
+    color: white;
+    position: absolute;
+    font-family: dmSans;
+    z-index: 4;
+    left: 63%;
+    top: 65%;
+    cursor: pointer;
+
+    padding: 40px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: bold;
+    border: 1px;
+    border-style: solid;
+    border-radius: 90px;
+}
+.headParagapher{
+    position: absolute;
+    color: white;
+    font-family: dmSans;
+    z-index: 4;
+    left: 50%;
+    top: 20%;
+}
+#head_title{
+    font-weight: bold;
+    font-size: 40px;
+}
+.logo img{
+    width: 150px;
+    position: absolute;
+    left: 10%;
+    padding-top: 20px;
+}
+footer{
+    padding: 10px;
+    font-family: dmSans;
+    color: white;
+    position: absolute;
+    background-color: #0A075F;
+    width: 100%;
+}
+.footer1 ul{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+
+.footer2 {
+    position: absolute;
+    top: 10%;
+    left: 40%;
 }
