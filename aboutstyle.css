@@ -1,0 +1,27 @@
+
+@font-face {
+    font-family: dmSans;
+    src: url(fontsFolder/dmsans.ttf);
+}
+
+.aboutBox {
+    position: relative;
+    top:-100px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(36, 37, 101);
+    border-radius: 20px;
+    height: 800px;
+    width: 1086px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 6px rgb(61, 55, 241, 0.25);
+    font-family: dmSans;
+    color: white;
+    font-size: 20px;
+    z-index: 10000;
+}
+#linetosplit{
+    background-color: rgb(255, 0, 0) !important;
+}
