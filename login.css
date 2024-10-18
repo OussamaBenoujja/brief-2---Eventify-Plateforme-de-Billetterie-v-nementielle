@@ -1,0 +1,91 @@
+.aboutBox {
+    position: relative;
+    top:-100px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(36, 37, 101);
+    border-radius: 20px;
+    height: 600px;
+    width: 700px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 6px rgb(61, 55, 241, 0.25);
+    font-family: dmSans;
+    color: white;
+    font-size: 20px;
+    z-index: 10000;
+}
+
+.aboutBox h1{
+    margin-left: 30px;
+}
+
+
+.aboutBox hr{
+    width: 95%;
+    height: 5px;
+    background-color: #F5167E;
+    border: none;
+    border-radius: 30px;
+}
+
+
+
+
+.log{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.log input{
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    width: 500px;
+    height: 50px;
+}
+
+.log label{
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+.log input::placeholder{
+    color: rgba(0, 0, 0, 0.40);
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+
+#subLog{
+    width: 250px !important;
+    border: none;
+    background-color: #F5167E;
+    color: white;
+    font-family: dmSans;
+    font-size: 40px;
+}
+
+.log input {
+    margin-bottom: 40px;
+}
+#remb{
+    margin-bottom: 40px;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.logSpan{
+    position: relative;
+    left: 15%;
+    margin-bottom: 40px;
+}
+.logSpan input{
+    width: 40px;
+}
