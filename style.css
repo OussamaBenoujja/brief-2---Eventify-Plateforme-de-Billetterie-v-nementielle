@@ -211,21 +211,33 @@ footer hr{
     width: 150px;
 }
 .searchBox{
-    z-index: 100;
     position: relative;
-    top: -50px;
-    width: 80%;
-    background-color: #242565;
+    top:-90px;
+    padding-left: 10px;
     display: flex;
-    flex-direction: row;
     
-    padding-top: 30px;
-    padding-bottom: 30px;
-    border: 0px;
-    border-radius: 15px;
+    background-color: rgb(36, 37, 101);
+    border-radius: 20px;
+    height: 150px;
+    width: 80%;
     margin: 0 auto;
-    border-style: solid;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 6px rgb(61, 55, 241, 0.25);
+    font-family: dmSans;
+    color: white;
+    font-size: 20px;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
+.searchBox span{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
 .searchBox p{
     margin-left: 30px;
     margin-right: 30px;
@@ -241,6 +253,7 @@ footer hr{
     border: 0px;
     border-bottom: 1px solid white;
     padding-bottom: 5px;
+    width: 200px;
 }
 .searchBox input::placeholder{
     color: white;
@@ -248,15 +261,7 @@ footer hr{
     font-weight: bold;
     font-size: 20px;
 }
-.searchBox select{
-    margin-left: 30px;
-    margin-right: 30px;
-    fill: none;
-    background: transparent;
-    border: 0px;
-    border-bottom: 1px solid white;
-    padding-bottom: 5px;
-}
+
 .eventsMenus{
     color: #242565;
     font-family: dmSans;
@@ -434,7 +439,7 @@ footer hr{
 }
 
 .SearchInput {
-    
+    outline: none;
     color: white;
     font-family: dmSans;
     font-weight: bold;
@@ -444,6 +449,7 @@ footer hr{
     background-color: transparent;
     border: none;
     border-bottom: 1px solid rgb(255, 255, 255);
+    width: 200px;
 }
 .SearchInput option {
     color: white;
@@ -456,7 +462,11 @@ footer hr{
 }
 
 .SearchInput:focus {
-    border: none;
-    outline: none;
+    border: none !important;
+    outline: none !important;
     border-bottom: 1px solid rgb(255, 255, 255);
+}
+.spanthing{
+    display: flex;
+    flex-direction: column;
 }
