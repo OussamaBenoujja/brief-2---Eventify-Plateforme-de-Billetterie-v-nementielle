@@ -30,6 +30,9 @@ body{
     text-decoration: none;
     font-family: dmSans;
     color: white;
+    padding: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 #loadbutton {
     list-style-type: none; 
@@ -47,7 +50,7 @@ body{
     border-color: #3D37F1;
 }
 #navbar ul{
-    transform: translate(190%,0%);
+    transform: translate(150%,0%);
     position: absolute;
     z-index: 99;
     display: flex;
@@ -450,6 +453,12 @@ footer hr{
     border: none;
     border-bottom: 1px solid rgb(255, 255, 255);
     width: 200px;
+
+    
+    outline: none; 
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    appearance: none; 
 }
 .SearchInput option {
     color: white;
@@ -469,4 +478,15 @@ footer hr{
 .spanthing{
     display: flex;
     flex-direction: column;
+}
+
+
+#nav-element a:hover {
+    background-color: #F5167E;
+    color: white;
+    padding: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
 }
