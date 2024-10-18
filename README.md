@@ -9,3 +9,7 @@
 
 [Trello WorkSpace](https://trello.com/b/uCxNnL8A/brief-2-eventify)
 
+## My Site is hosted on Vercel
+
+[Vercel Link](https://vercel.live/link/brief-2-eventify-plateforme-de-billetterie-v-nementielle.vercel.app?via=project-dashboard-alias-list&p=1)
+
