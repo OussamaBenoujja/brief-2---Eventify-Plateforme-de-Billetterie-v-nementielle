@@ -1,0 +1,88 @@
+@font-face {
+    font-family: dmSans;
+    src: url(fontsFolder/dmsans.ttf);
+}
+
+.aboutBox {
+    position: relative;
+    top:-100px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(36, 37, 101);
+    border-radius: 20px;
+    height: 2200px;
+    width: 1086px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 6px rgb(61, 55, 241, 0.25);
+    font-family: dmSans;
+    color: white;
+    font-size: 20px;
+    z-index: 10000;
+}
+
+.flexcol{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: 0 auto;
+    
+}
+.flexcol img{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 80px;
+}
+
+#span{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#speakerName{
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+#speakerdscrp{
+    font-weight: lighter;
+    font-size: large;
+}
+
+.aboutBox h1{
+    position: absolute;
+    left: -240px;
+    top: -35px;
+    font-size: 60px;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom: 40px;
+    
+}
+
+
+.aboutBox hr{
+    position: absolute;
+    left: 30px;
+    top: 70px;
+    width: 95%;
+    height: 5px;
+    background-color: #F5167E;
+    border: none;
+    border-radius: 30px;
+}
+
+#midline{
+    position: absolute;
+    left: 50%;
+    top: 110px;
+    width: 5px;
+    height: 80%;
+    background-color: #F5167E;
+    border: none;
+    border-radius: 30px;
+}
