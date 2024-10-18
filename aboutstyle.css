@@ -22,6 +22,15 @@
     font-size: 20px;
     z-index: 10000;
 }
-#linetosplit{
-    background-color: rgb(255, 0, 0) !important;
+
+.aboutBox hr{
+    width: 95%;
+    height: 5px;
+    background-color: #F5167E;
+    border: none;
+    border-radius: 30px;
+}
+
+.aboutBox h1,h3,p{
+    margin-left: 35px;
 }
